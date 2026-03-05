@@ -1,0 +1,283 @@
+*, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    color: #1a1a1a;
+    line-height: 1.5;
+}
+
+h1, h2, h3{
+    font-family: "Syne", serif;
+}
+
+.header{
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+/* FOR GANGNAM-GU PAGE */
+.header-img{
+    background: url("./images/Gangnam-gu-page.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+
+/* FOR BOSSAM PAGE */
+#bossam-header-img{
+    background: url("./images/bossam.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+
+/* FOR ROYAL PALACE PAGE */
+#royal-palace-header-img{
+    background: url("./images/Gyeongbokgung-Palace-page.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+
+.title-header{
+    margin: 40px 10px 10px 10px;
+    font-size: 32px;
+}
+
+.paragraph-header{
+    margin: 20px 40px;
+    font-size: 18px;
+}
+
+/* GALLERY SECTION */
+
+.gallery-section{
+    margin: 40px 20px 100px 20px;
+    text-align: center;
+}
+
+.title-gallery{
+    margin-bottom: 20px;
+}
+
+.gallery-imgs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.top-imgs-gallery{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bottom-imgs-gallery{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item-img{
+    width: 600px;
+    height: 400px;
+    margin: 6px;
+    background-size: cover;
+}
+
+/* FOR GANGNAM PAGE */
+
+.item1-gallery-gangnam-img{ background-image: url("./images/COEX-Mall.jpg"); }
+.item1-gallery-gangnam-img:hover{ background-image: url("./images/COEX-Mall-hover.jpg");}
+
+.item2-gallery-gangnam-img{ background-image: url("./images/bongeunsa-temple.jpg"); }
+.item2-gallery-gangnam-img:hover{ background-image: url("./images/bongeunsa-temple-hover.jpg"); }
+
+.item3-gallery-gangnam-img{ background-image: url("./images/Garosu-gil.jpg"); }
+.item3-gallery-gangnam-img:hover{ background-image: url("./images/Garosu-gil-hover.jpg"); }
+
+.item4-gallery-gangnam-img{ background-image: url("./images/gangnam-style-hands-statue.jpg"); }
+.item4-gallery-gangnam-img:hover{ background-image: url("./images/gangnam-style-hands-statue-hover.jpg"); }
+
+
+/* FOR BOSSAM PAGE */
+
+.item1-gallery-bossam-img{ background-image: url("./images/bibimbap.jpg"); }
+.item1-gallery-bossam-img:hover{ background-image: url("./images/bibimbap-hover.jpg");}
+
+.item2-gallery-bossam-img{ background-image: url("./images/Tokbokki.jpg"); }
+.item2-gallery-bossam-img:hover{ background-image: url("./images/Tokbokki-hover.jpg"); }
+
+.item3-gallery-bossam-img{ background-image: url("./images/Kimchi.jpg"); }
+.item3-gallery-bossam-img:hover{ background-image: url("./images/Kimchi-hover.jpg"); }
+
+.item4-gallery-bossam-img{ background-image: url("./images/samgyeopsal.jpg"); }
+.item4-gallery-bossam-img:hover{ background-image: url("./images/samgyeopsal-hover.jpg"); }
+
+
+/* FOR ROYAL PALACE PAGE */
+
+.item1-gallery-palace-img{ background-image: url("./images/jeogori.jpg"); }
+.item1-gallery-palace-img:hover{ background-image: url("./images/jeogori-hover.jpg");}
+
+.item2-gallery-palace-img{ background-image: url("./images/chima.jpg"); }
+.item2-gallery-palace-img:hover{ background-image: url("./images/chima-hover.jpg"); }
+
+.item3-gallery-palace-img{ background-image: url("./images/Geunjeongjeon-Hall.jpg"); }
+.item3-gallery-palace-img:hover{ background-image: url("./images/Geunjeongjeon-Hall-hover.jpg"); }
+
+.item4-gallery-palace-img{ background-image: url("./images/Gyeonghoeru-Pavilion.jpg"); }
+.item4-gallery-palace-img:hover{ background-image: url("./images/Gyeonghoeru-Pavilion-hover.jpg"); }
+
+
+/* ADs SECTION */
+
+.ad-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    background: url("./images/ad-background.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.ad-title{
+    font-size: 30px;
+    color: #1a1b41;
+    font-weight: 700;
+    font-family:  "Open Sans", sans-serif;
+    margin: 16px;
+}
+
+#btn-footer{
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#btn-footer:hover{
+    box-shadow: 3px 6px 12px #0d0e22;
+}
+
+.btn{
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    background: #BAFF29;
+    color: #1a1b41;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#btn-ad{
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#btn-ad:hover{
+    box-shadow: 3px 6px 12px #0d0e226a;
+    background: #1a1b41;
+    color: #BAFF29;
+}
+
+
+/* FOOTER */
+
+.footer-section{
+    color: #fbfbfb;
+    background-color: #1A1B41;
+    padding: 60px 20px 40px 20px;
+    text-align: center;
+}
+
+.content-wrapper-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px 20px 40px 20px;
+}
+
+.dev-name-footer{
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+.dev-profession-footer{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #C2E7DA;
+}
+
+.about-site-footer{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.nav-list-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.list-item-footer{
+    list-style-type: none;
+    margin: 8px 20px;
+    text-align: center;
+}
+
+.item-footer{
+    text-decoration: none;
+    color: #fbfbfb;
+    text-transform: uppercase;
+}
+
+.item-footer:hover{
+    color: #BAFF29;
+    border-bottom: 1px solid #BAFF29;
+    padding-bottom: 4px;
+}
+
+/* For Gangnam footer */
+#gangnam-nav{
+    color: #BAFF29;
+    border-bottom: 1px solid #BAFF29;
+    padding-bottom: 4px;
+}
+
+/* For Bossam footer */
+#bossam-nav{
+    color: #BAFF29;
+    border-bottom: 1px solid #BAFF29;
+    padding-bottom: 4px;
+}
+
+/* For Royal Palace footer */
+#royal-palace-nav{
+    color: #BAFF29;
+    border-bottom: 1px solid #BAFF29;
+    padding-bottom: 4px;
+}
+
+#copyright-footer{
+    margin-top: 16px;
+    border-top: 1px solid #F1FFE7;
+    padding-top: 18px;
+    color: #dbdbdb;
+    font-weight: 100;
+    text-align: center;
+}
